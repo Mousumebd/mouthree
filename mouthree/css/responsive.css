@@ -1,0 +1,92 @@
+/* Teblet Layout */
+@media (max-width:991px){
+ .social-area {
+    max-width: 460px;
+}
+.inner-menu {
+    background: none;
+    min-height: auto;
+}
+.inner-menu::after {
+    display: none;
+}
+.mean-container .mean-nav {
+    margin-top: 0;
+    width: 80%;
+}
+.inner-header {
+    padding: 15px 0;
+}
+.social-area {
+    padding-top: 0;
+}
+#slider_area {
+    margin-top: 0px;
+}
+.inner_hero h2 {
+    font-size: 55px;
+}
+.child_work {
+    width: 31%;
+}
+.service_area {
+    margin-left: 30px;
+}
+.child_servies .servies_text {
+    width: 68%;
+}
+.child_testimonial {
+    margin-left: 18px;
+}
+}
+/* ========Mobile====== */
+@media (max-width:480px){
+.mini-mune {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.mini-mune ul, .social-area ul {
+    text-align: center;
+}
+.search-area, .logo-area {
+    width: 222px;
+    float: none;
+    margin: 0 auto;
+}
+.social-area ul li {
+    margin: 0 5px;
+}
+.logo-area {
+   text-align: center;
+}
+.inner_hero h2 {
+    font-size: 25px;
+}
+#work_area, #footer_area {
+    padding: 15px 0;
+}
+.child_work {
+    width: 98%;
+}
+.child_footer {
+    width: 96%;
+}
+.left_copyright {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.right_copyright {
+    text-align: left;
+    width: 100%;
+}
+
+}
+@media (max-width:540px){
+.child_work {
+    width: 100%;
+}
+.right_copyright {
+    text-align: left;
+    width: 100%;
+}
+}
